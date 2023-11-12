@@ -9,14 +9,11 @@ class Solution:
                 res[ord(c) - 97] += 1
             # print(f"res={res}")
             return res
-
-        def convert_list_to_key(li):
-            return ".".join(map(str,li))
         
         groups = {}
 
         for s in strs:
-            key = convert_list_to_key(str_to_list(s))
+            key = str(str_to_list(s))
             if key not in groups:
                 groups[key] = [s]
             else:
