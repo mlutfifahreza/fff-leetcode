@@ -1,55 +1,55 @@
 class Solution:
     def fractionAddition(self, expression: str) -> str:
-        signs = []
-        nums = []
-        denums = []
+        s = expression
 
-        cur_num = 0
-        if expression[0] not in "+-":
-            expression = "+" + expression
+        i = 0
+        n = len(s)
+        num, denum = 0, 1
+        while i < n:
+            # check sign
+            negative = False
+            if s[i] in "+-":
+                if s[i] == "-":
+                    negative = True
+                i += 1
 
-        for c in expression:
-            if c in "+-":
-                signs.append(c)
-                denums.append(cur_num)
-                cur_num = 0
-            elif c == "/":
-                nums.append(cur_num)
-                cur_num = 0
-            else:
-                cur_num = cur_num*10 + int(c)
-        denums.append(cur_num)
-        denums = denums[1:]
+            # get num
+            cur_num = 0
+            while s[i] in "1234567890":
+                # print(s[i], "->", int(s[i]))
+                cur_num = cur_num * 10 + int(s[i])
+                i += 1
+            if negative:
+                cur_num *= -1
+            # print("cur_num", cur_num)
 
-        for i in range(len(signs)):
-            if signs[i] == "-":
-                nums[i] = -nums[i]
+            # skip /
+            i += 1
+
+            # get denum
+            cur_denum = 0
+            while i<n and s[i] in "1234567890":
+                # print(s[i], "->", int(s[i]))
+                cur_denum = cur_denum * 10 + int(s[i])
+                i += 1
+            # print("cur_denum", cur_denum)
+
+            # count
+            num = num * cur_denum + cur_num * denum
+            denum = denum * cur_denum
+            # print("num, denum ", num, denum)
+            # print()
         
-        # print(signs)
-        # print(nums)
-        # print(denums)
+        # simplify
+        def get_gcd(a,b):
+            if(b == 0):
+                return abs(a)
+            else:
+                return get_gcd(b, a % b)
+        
+        gcd = get_gcd(num, denum)
+        num //= gcd
+        denum //= gcd
 
-        common_num = 1
-        for d in denums:
-            common_num *= d
-        # print(common_num)
-
-        num_sum = 0
-        for i in range(len(nums)):
-            num_sum += nums[i] * (common_num//denums[i])
-            # print(num_sum)
-        # print("num_sum ",  num_sum)
-
-        for i in range(2, common_num+1):
-            # print("i", i)
-            while num_sum%i == 0 and common_num%i == 0:
-                # print("i", True)
-                num_sum //= i
-                common_num //= i
-                # print("->", num_sum)
-                # print("->", common_num)
-
-        # print(num_sum)
-        # print(common_num)
-
-        return f"{num_sum}/{common_num}"
+        # return
+        return f"{num}/{denum}"
