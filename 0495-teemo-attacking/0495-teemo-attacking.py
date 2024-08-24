@@ -4,8 +4,7 @@ class Solution:
         exp = -1
 
         for t in timeSeries:
-            new_exp = t+duration-1
-            res += min(new_exp-exp, duration)
-            exp = new_exp
+            res += duration if t > exp else t + duration - 1 - exp
+            exp = t + duration - 1
         
         return res
