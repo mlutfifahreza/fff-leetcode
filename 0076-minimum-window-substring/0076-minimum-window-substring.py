@@ -6,11 +6,11 @@ class Solution:
         if n > m:
             return ""  # If t is longer than s, it's impossible to have a window.
 
-        INDEX_MAX = 128  # Expanded to accommodate the entire ASCII range
+        INDEX_MAX = 60 # accomodate A-Z a-z and some symbols in between
 
         # Function to get the index of a character
         def index(c):
-            return ord(c)
+            return ord(c) - ord("A")
 
         # Frequency array for characters in t
         char_t = [0] * INDEX_MAX
