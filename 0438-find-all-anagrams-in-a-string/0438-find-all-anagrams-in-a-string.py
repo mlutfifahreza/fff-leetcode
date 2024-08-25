@@ -26,12 +26,14 @@ class Solution:
             counter[index(c)] += 1
             
             # validation
-            valid = True
-            for j in range(26):
-                if counter[j] != counter_p[j]:
-                    valid = False
-                    break
-            if valid:
+            # valid = True
+            # for j in range(26):
+            #     if counter[j] != counter_p[j]:
+            #         valid = False
+            #         break
+            # if valid:
+            #     res.append(i-len(p)+1)
+            if counter == counter_p:
                 res.append(i-len(p)+1)
         
         return res
