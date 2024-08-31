@@ -1,37 +1,36 @@
-from typing import List
-from heapq import heappush, heappop
-
 class Solution:
     def maxProbability(self, n: int, edges: List[List[int]], succProb: List[float], start_node: int, end_node: int) -> float:
-
-        # construct graph
-        graph = {}  # point : [list[point, prob]]
+        graph = {}
         for i, edge in enumerate(edges):
-            a, b = edge
-            prob = succProb[i]
+            a,b = edge
             if a not in graph:
-                graph[a] = []
+                graph[a] = {}
             if b not in graph:
-                graph[b] = []
-            graph[a].append([b, prob])
-            graph[b].append([a, prob])
+                graph[b] = {}
+            graph[a][b] = -succProb[i]
+            graph[b][a] = -succProb[i]
+        
+        print(graph)
 
-        # priority queue
-        min_heap = [(-1.0, start_node)] # (-prob, point)
-        probabilities = {i: 0.0 for i in range(n)}
-        probabilities[start_node] = 1.0
+        if start_node not in graph or end_node not in graph:
+            return 0
 
-        while min_heap:
-            current_prob, point = heappop(min_heap)
-            current_prob = -current_prob
+        # greedy with heap
+        heap = [[-1, start_node]]
+        heapq.heapify(heap)
 
+        visited = {}
+        
+        while heap:
+            curr_succ, point = heapq.heappop(heap)
+            # print("curr_succ, point", curr_succ, point)
+            visited[point] = True
+            # check if already reached end node
             if point == end_node:
-                return current_prob
+                return -curr_succ
+            # add curr point neighbors with lowest succ
+            for neighbor, succ in graph[point].items():
+                if neighbor not in visited:
+                    heapq.heappush(heap, [-1 * abs(curr_succ) * abs(succ), neighbor])
 
-            for neighbor, edge_prob in graph.get(point, []):
-                new_prob = current_prob * edge_prob
-                if new_prob > probabilities[neighbor]:
-                    probabilities[neighbor] = new_prob
-                    heappush(min_heap, (-new_prob, neighbor))
-
-        return 0.0
+        return 0
