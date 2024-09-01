@@ -21,10 +21,7 @@ class Solution:
                 return node.val, counter
             # check right
             found, counter = recur(node.right, counter)
-            if found:
-                return found, counter
-            else:
-                return None, counter
+            return found, counter
         
         found, _ = recur(root, 0)
         return found
