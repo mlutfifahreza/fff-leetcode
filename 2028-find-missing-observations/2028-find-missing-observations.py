@@ -10,13 +10,16 @@ class Solution:
             return []
         
         res = [0] * n
+        cur = 6
 
         for i in range(n):
+            # print(f'i={i} target={target} cur={cur}')
             rest = n-i-1
-            for v in range(6, 0 ,-1):
+            for v in range(cur, 0 ,-1):
                 if target - v >= rest:
                     res[i] = v
                     target -= v
+                    cur = v
                     break
         
         return res
