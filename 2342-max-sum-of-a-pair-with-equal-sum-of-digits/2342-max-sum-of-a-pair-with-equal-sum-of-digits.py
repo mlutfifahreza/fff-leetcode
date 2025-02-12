@@ -1,9 +1,17 @@
 class Solution:
+    def __init__(self):
+        self.cache_sum_digit = {}
+
     def sum_digit(self, n):
+        res = self.cache_sum_digit.get(n)
+        if res: 
+            return res
+
         res = 0
         while n > 0:
             res += n%10
             n //= 10
+        self.cache_sum_digit[n] = res
         return int(res)
 
     def maximumSum(self, nums: List[int]) -> int:
