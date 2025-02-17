@@ -9,7 +9,7 @@ class Solution:
             final_set.add(word)
             # print(f"word = {word} final_set = {final_set}")
 
-            if not rest : return
+            # if not rest : return
 
             for i,v in enumerate(rest):
                 recur(rest[i], word, rest[0:i] + rest[i+1:len(rest)])
