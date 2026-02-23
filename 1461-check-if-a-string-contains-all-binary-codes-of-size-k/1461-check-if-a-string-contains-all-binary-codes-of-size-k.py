@@ -1,15 +1,15 @@
 class Solution:
     def hasAllCodes(self, s: str, k: int) -> bool:
-        check = {}
         n = len(s)
-
-        for i in range(n-k+1):
-            substr = s[i:i+k]
-            # print(f'substr = {substr}')
-            check[substr] = True
-        # print(f'check = {check}')
-
-        exp = pow(2,k)
-        # print(f'exp= {exp}')
-
-        return exp == len(check)
+        total_substrings = n - k + 1
+        total_possible = 2 ** k
+        
+        if total_substrings < total_possible:
+            return False
+        
+        seen = set()
+        
+        for i in range(total_substrings):
+            seen.add(s[i:i+k])
+        
+        return len(seen) == total_possible
