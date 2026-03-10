@@ -12,6 +12,7 @@ fff-letcode
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3010-divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3289-the-two-sneaky-numbers-of-digitville/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -29,4 +30,12 @@ fff-letcode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3228-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3228-maximum-number-of-operations-to-move-ones-to-the-end/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3010-divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3010-divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy |
 <!---LeetCode Topics End-->
