@@ -14,10 +14,12 @@ fff-letcode
 | ------- | ------- |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3010-divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3289-the-two-sneaky-numbers-of-digitville/) | Easy |
+| [3583-count-special-triplets](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3583-count-special-triplets/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3289-the-two-sneaky-numbers-of-digitville/) | Easy |
+| [3583-count-special-triplets](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3583-count-special-triplets/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -30,6 +32,7 @@ fff-letcode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3228-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3228-maximum-number-of-operations-to-move-ones-to-the-end/) | Medium |
+| [3583-count-special-triplets](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3583-count-special-triplets/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
