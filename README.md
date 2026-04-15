@@ -8,10 +8,12 @@ fff-letcode
 | ------- | ------- |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/mlutfifahreza/fff-leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [3228-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3228-maximum-number-of-operations-to-move-ones-to-the-end/) | Medium |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/mlutfifahreza/fff-leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3010-divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3289-the-two-sneaky-numbers-of-digitville/) | Easy |
 | [3583-count-special-triplets](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3583-count-special-triplets/) | Medium |
