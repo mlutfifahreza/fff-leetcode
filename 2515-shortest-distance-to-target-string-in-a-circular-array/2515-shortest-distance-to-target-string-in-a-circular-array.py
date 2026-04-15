@@ -1,34 +1,14 @@
 class Solution:
-    def closestTarget(self, words: List[str], target: str, startIndex: int) -> int:
-        if words[startIndex] == target:
-            return 0
+    def closestTarget(self, words: list[str], target: str, startIndex: int) -> int:
+        n = len(words)
+        min_dist = n  # Initialize with a value larger than any possible distance
         
-        def left(i):
-            return (i-1) % len(words)
-
-        def right(i):
-            return (i+1) % len(words)
-
-        def distance(i):
-            d = abs(i - startIndex)
-            dd = len(words) - d
-            return min(d, dd)
-
-        l,r = left(startIndex), right(startIndex)
-        while l != r:
-            if words[r] == target:
-                # print(f'returning r abs({r}-{startIndex})')
-                return distance(r)
-            if words[l] == target:
-                # print(f'returning l abs({l}-{startIndex})')
-                return distance(l)
-            l,r = left(l), right(r)
+        for i, word in enumerate(words):
+            if word == target:
+                # Calculate direct distance
+                d = abs(i - startIndex)
+                # Compare direct distance vs. wrapping around the circle
+                # The shortest distance is min(d, n - d)
+                min_dist = min(min_dist, d, n - d)
         
-        if words[r] == target:
-            # print(f'returning r abs({r}-{startIndex})')
-            return distance(r)
-        if words[l] == target:
-            # print(f'returning l abs({l}-{startIndex})')
-            return distance(l)
-        
-        return -1
+        return min_dist if min_dist != n else -1
