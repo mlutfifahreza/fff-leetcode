@@ -25,6 +25,7 @@ fff-letcode
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0788-rotated-digits](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3289-the-two-sneaky-numbers-of-digitville/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
@@ -47,4 +48,8 @@ fff-letcode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1009-complement-of-base-10-integer](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0788-rotated-digits](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0788-rotated-digits/) | Medium |
 <!---LeetCode Topics End-->
