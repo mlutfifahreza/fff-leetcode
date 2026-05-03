@@ -6,6 +6,7 @@ fff-letcode
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0796-rotate-string](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0796-rotate-string/) | Easy |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/mlutfifahreza/fff-leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
@@ -52,4 +53,8 @@ fff-letcode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0788-rotated-digits](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0788-rotated-digits/) | Medium |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0796-rotate-string](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0796-rotate-string/) | Easy |
 <!---LeetCode Topics End-->
