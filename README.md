@@ -6,6 +6,7 @@ fff-letcode
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0242-valid-anagram](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0796-rotate-string](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0796-rotate-string/) | Easy |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
@@ -23,6 +24,7 @@ fff-letcode
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0242-valid-anagram](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3289-the-two-sneaky-numbers-of-digitville/) | Easy |
 | [3583-count-special-triplets](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3583-count-special-triplets/) | Medium |
@@ -44,6 +46,7 @@ fff-letcode
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0242-valid-anagram](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3010-divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy |
 ## Enumeration
