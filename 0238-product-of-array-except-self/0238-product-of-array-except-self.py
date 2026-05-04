@@ -3,15 +3,14 @@ class Solution:
         n = len(nums)
         res = [1] * n
 
-        pre = 1
-        post = 1
-
-        for i in range(n):
-            res[i] = pre
-            pre *= nums[i]
+        su = 1
+        for i in range(n-1):
+            su *= nums[i]
+            res[i+1] = su
         
-        for i in range(n-1, -1, -1):
-            res[i] *= post
-            post *= nums[i]
+        su = 1
+        for i in range(n-1, 0, -1):
+            su *= nums[i]
+            res[i-1] *= su
         
         return res
