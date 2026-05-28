@@ -23,6 +23,7 @@ fff-letcode
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3010-divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3289-the-two-sneaky-numbers-of-digitville/) | Easy |
 | [3583-count-special-triplets](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3583-count-special-triplets/) | Medium |
+| [3740-minimum-distance-between-three-equal-elements-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -30,6 +31,7 @@ fff-letcode
 | [0347-top-k-frequent-elements](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3289-the-two-sneaky-numbers-of-digitville/) | Easy |
 | [3583-count-special-triplets](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3583-count-special-triplets/) | Medium |
+| [3740-minimum-distance-between-three-equal-elements-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
