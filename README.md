@@ -38,6 +38,7 @@ fff-letcode
 | ------- | ------- |
 | [0788-rotated-digits](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3289-the-two-sneaky-numbers-of-digitville/) | Easy |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -99,4 +100,12 @@ fff-letcode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2553-separate-the-digits-in-an-array](https://github.com/mlutfifahreza/fff-leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 <!---LeetCode Topics End-->
