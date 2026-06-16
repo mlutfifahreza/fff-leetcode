@@ -1,23 +1,31 @@
 class Solution:
-    def processStr(self, s: str) -> str:
-        res = ""
+    """
+    Processes a string based on special operational characters:
+    '*' : Deletes the last character (Backspace).
+    '#' : Duplicates the entire current string.
+    '%' : Reverses the entire current string.
+    """
 
-        for c in s:
-            if c == '*':
-                if len(res) > 0:
-                    res = res[:-1]
-            elif c == '#':
-                res = res + res
-            elif c == '%':
-                new_res = ""
-                i = 0
-                max_i = len(res) - 1
-                while i <= max_i:
-                    new_res += res[max_i - i]
-                    i += 1
-                res = new_res
+    def processStr(self, s: str) -> str:
+        # Using a list as a mutable stack to avoid O(N^2) string copy overhead
+        res_stack: list[str] = []
+
+        for char in s:
+            if char == '*':
+                if res_stack:
+                    res_stack.pop()
+            
+            elif char == '#':
+                # O(K) complexity where K is current length. 
+                # Note: Watch out for memory limits if '#' appears sequentially.
+                res_stack.extend(res_stack)
+            
+            elif char == '%':
+                # In-place reversal of the list is highly optimized in C (O(K))
+                res_stack.reverse()
+            
             else:
-                res += c
-            # print(c, res)
+                res_stack.append(char)
         
-        return res
+        # Single O(N) join operation at the end
+        return "".join(res_stack)
