@@ -12,6 +12,7 @@ fff-letcode
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/mlutfifahreza/fff-leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [3228-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3228-maximum-number-of-operations-to-move-ones-to-the-end/) | Medium |
+| [3612-process-string-with-special-operations-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -100,6 +101,7 @@ fff-letcode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2553-separate-the-digits-in-an-array](https://github.com/mlutfifahreza/fff-leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
+| [3612-process-string-with-special-operations-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
