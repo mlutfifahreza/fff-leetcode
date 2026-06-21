@@ -19,6 +19,7 @@ fff-letcode
 | [0238-product-of-array-except-self](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0794-valid-tic-tac-toe-state](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0794-valid-tic-tac-toe-state/) | Medium |
+| [1833-maximum-ice-cream-bars](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/mlutfifahreza/fff-leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/mlutfifahreza/fff-leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2574-left-and-right-sum-differences](https://github.com/mlutfifahreza/fff-leetcode/tree/main/2574-left-and-right-sum-differences/) | Easy |
@@ -43,6 +44,7 @@ fff-letcode
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1833-maximum-ice-cream-bars](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [3228-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3228-maximum-number-of-operations-to-move-ones-to-the-end/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
@@ -55,6 +57,7 @@ fff-letcode
 | ------- | ------- |
 | [0242-valid-anagram](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [1833-maximum-ice-cream-bars](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3010-divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
@@ -110,4 +113,8 @@ fff-letcode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1833-maximum-ice-cream-bars](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 <!---LeetCode Topics End-->
