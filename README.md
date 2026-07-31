@@ -66,6 +66,7 @@ fff-letcode
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0476-number-complement](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0476-number-complement/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
