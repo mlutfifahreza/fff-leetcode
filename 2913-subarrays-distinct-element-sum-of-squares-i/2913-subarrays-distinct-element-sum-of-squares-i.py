@@ -4,14 +4,9 @@ class Solution:
         n = len(nums)
         
         for i in range(n):
+            seen = set()
             for j in range(i, n):
-                counter = {}
-                for x in range(i,j+1):
-                    num = nums[x]
-                    if num not in counter:
-                        counter[num] = 1
-                this_count = pow(len(counter), 2)
-                res += this_count
-                # print(f'processing i j {i} {j} | counter {counter} this_count {this_count} res {res} ')
-
+                seen.add(nums[j])
+                res += len(seen) ** 2
+                
         return res
