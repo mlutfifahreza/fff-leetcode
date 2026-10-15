@@ -42,6 +42,7 @@ fff-letcode
 | ------- | ------- |
 | [0788-rotated-digits](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3289-the-two-sneaky-numbers-of-digitville/) | Easy |
+| [3345-smallest-divisible-digit-product-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -65,6 +66,7 @@ fff-letcode
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3010-divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy |
+| [3345-smallest-divisible-digit-product-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
