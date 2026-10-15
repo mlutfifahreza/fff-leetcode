@@ -13,6 +13,7 @@ fff-letcode
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/mlutfifahreza/fff-leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [3228-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3228-maximum-number-of-operations-to-move-ones-to-the-end/) | Medium |
 | [3612-process-string-with-special-operations-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
+| [3838-weighted-word-mapping](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -28,6 +29,7 @@ fff-letcode
 | [3289-the-two-sneaky-numbers-of-digitville](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3289-the-two-sneaky-numbers-of-digitville/) | Easy |
 | [3583-count-special-triplets](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3583-count-special-triplets/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
+| [3838-weighted-word-mapping](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -110,6 +112,7 @@ fff-letcode
 | ------- | ------- |
 | [2553-separate-the-digits-in-an-array](https://github.com/mlutfifahreza/fff-leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [3612-process-string-with-special-operations-i](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
+| [3838-weighted-word-mapping](https://github.com/mlutfifahreza/fff-leetcode/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
