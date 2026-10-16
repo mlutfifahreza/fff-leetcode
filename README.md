@@ -17,6 +17,7 @@ fff-letcode
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0137-single-number-ii](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0137-single-number-ii/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0794-valid-tic-tac-toe-state](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0794-valid-tic-tac-toe-state/) | Medium |
@@ -72,6 +73,7 @@ fff-letcode
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0137-single-number-ii](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0137-single-number-ii/) | Medium |
 | [0476-number-complement](https://github.com/mlutfifahreza/fff-leetcode/tree/main/0476-number-complement/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/mlutfifahreza/fff-leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 ## Dynamic Programming
